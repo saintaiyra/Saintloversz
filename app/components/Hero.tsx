@@ -45,12 +45,12 @@ export default function Hero() {
   ))}
 </div>
 
-      <div className="relative z-10">
+      <div className="flex flex-col items-center text-center">
         <p className="hero-label mb-12 text-sm uppercase tracking-[0.3em]">
           antisocial lifestyle
         </p>
 
-        <h1 className="hero-title text-6xl font-normal tracking-[0.3em] text-[#7C3AED] md:text-4xl">
+        <h1 className="hero-title whitespace-nowrap text-5xl font-normal tracking-[0.1em] text-[#7C3AED] sm:text-5xl md:text-7xl">
           SAINT AIYRA
         </h1>
 

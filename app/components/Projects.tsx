@@ -92,18 +92,18 @@ export default function Projects() {
 
   return (
     <section
-      ref={sectionRef}
-      id="projects"
-      className="min-h-screen bg-[#7C3AED] px-8 py-32 text-black"
-    >
+  ref={sectionRef}
+  id="projects"
+  className="w-full min-h-screen bg-[#7C3AED] px-4 py-20 text-black sm:px-6 md:px-8 md:py-32"
+>
       <div className="mx-auto max-w-6xl">
 
         <p className="mb-6 text-sm uppercase tracking-[0.4em]">
           Work of Saint
         </p>
 
-        <h2 className="projects-title text-5xl font-bold md:text-7xl">
-          PROJECTS
+        <h2 className="projects-title text-4xl font-bold sm:text-5xl md:text-7xl">
+           PROJECTS
         </h2>
 
         <div className="mt-20 grid gap-8 md:grid-cols-2">
