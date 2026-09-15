@@ -50,8 +50,8 @@ export default function Hero() {
           antisocial lifestyle
         </p>
 
-        <h1 className="hero-title whitespace-nowrap text-5xl font-normal tracking-[0.1em] text-[#7C3AED] sm:text-5xl md:text-7xl">
-          SAINT AIYRA
+        <h1 className="hero-title whitespace-nowrap text-[9vw] font-normal tracking-[0.02em] text-[#7C3AED] sm:text-6xl md:text-8xl md:tracking-[0.2em]">
+           SAINT AIYRA
         </h1>
 
         <p className="hero-description mt-8 max-w-xl text-lg text-[#7C3AED]">

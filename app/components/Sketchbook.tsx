@@ -149,11 +149,11 @@ export default function Sketchbook() {
 
       <div className="relative z-10 mx-auto max-w-6xl">
 
-        <p className="mb-6 text-sm uppercase tracking-[0.4em]">
+        <p className="mb-6 text-[#7C3AED] uppercase tracking-[0.4em]">
           Personal Archive
         </p>
 
-        <h2 className="sketchbook-title text-5xl font-normal text-[#7C3AED] md:text-7xl">
+        <h2 className="whitespace-nowrap text-[9vw] font-normal tracking-[0.02em] text-[#7C3AED] sm:text-6xl md:text-8xl md:tracking-[0.2em]">
           SKETCHBOOK
         </h2>
 
