@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Shock Rumble";
+  src: url("/fonts/Shock Rumble Demo.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: "Shock Rumble", sans-serif !important;
+}
+
+.poem-text,
+.poem-author {
+  font-family: Georgia, "Times New Roman", serif !important;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -22,5 +38,60 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-space-grotesk)
+}
+
+
+.falling-star {
+  position: absolute;
+  width: 20px;
+  height: 50px;
+  will-change: transform;
+}
+
+.star-head {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  line-height: 1;
+  color: #7C3AED;
+  text-shadow:
+    0 0 5px #7C3AED,
+    0 0 10px #7C3AED,
+    0 0 20px #7C3AED;
+}
+
+.star-trail {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 40px;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    #7C3AED
+  );
+  opacity: 0.7;
+}
+
+.poem-text {
+  color: #7c3aed;
+
+  text-shadow:
+    0 0 5px rgba(124, 58, 237, 0.9),
+    0 0 15px rgba(124, 58, 237, 0.6),
+    0 0 30px rgba(124, 58, 237, 0.3);
+}
+
+.poem-author {
+  color: #7c3aed;
+
+  text-shadow:
+    0 0 5px rgba(124, 58, 237, 0.9),
+    0 0 15px rgba(124, 58, 237, 0.6),
+    0 0 30px rgba(124, 58, 237, 0.3);
 }
