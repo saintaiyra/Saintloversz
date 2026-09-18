@@ -166,7 +166,7 @@ export default function Projects() {
               >
                 {projectUnlocked
                   ? "View Project →"
-                  : "Coming Soon →"}
+                  : "View Project →"}
               </button>
 
             </article>
@@ -206,7 +206,7 @@ export default function Projects() {
               >
                 {projectUnlocked
                   ? "View Project →"
-                  : "Coming Soon →"}
+                  : "View Project →"}
               </button>
 
             </article>
