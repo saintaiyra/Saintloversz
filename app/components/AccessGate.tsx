@@ -149,11 +149,11 @@ export default function AccessGate({
           {/* CONTEÚDO */}
           <div className="text-center">
             <p className="mb-6 text-lg">
-              BEFORE YOU VIEW
+              my world
             </p>
 
             <h2 className="mb-10 text-4xl md:text-6xl">
-              QUER VER O PROJETO?
+              digite a senha !
             </h2>
 
             {loading ? (
