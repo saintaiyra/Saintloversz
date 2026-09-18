@@ -1,3 +1,5 @@
+import AccessGate from "./components/AccessGate";
+
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
@@ -20,6 +22,7 @@ export default function Home() {
 
       {/* ÚLTIMA PARTE DO SITE */}
       <Poem />
-    </main>
+    </main> 
+
   );
 }
