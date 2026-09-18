@@ -23,7 +23,7 @@ export default function AccessGate({
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
 
-  const API_URL = "http://localhost:3001";
+  const API_URL = "https://saint-aiyra-backend.onrender.com";
 
   useEffect(() => {
     if (isOpen) {
